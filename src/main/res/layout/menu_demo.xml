@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/menu"
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip">
+        <Button android:id="@+id/ibtn_his"
+            android:background="@drawable/advancedbutton"
+            android:layout_width="0dip"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:text ="1234"
+            android:textColor="#fff"
+            android:layout_margin="4dip"/>
+        <Button android:id="@+id/ibtn_pricemap"
+            android:background="@drawable/advancedbutton"
+            android:layout_width="0dip" android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:text ="2345"
+            android:textColor="#fff"
+            android:layout_margin="4dip"/>
+        <Button android:id="@+id/ibtn_sale"
+            android:background="@drawable/advancedbutton"
+            android:layout_width="0dip" android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:text ="3456"
+            android:textColor="#fff"
+            android:layout_margin="4dip"/>
+        <Button android:id="@+id/ibtn_help"
+            android:background="@drawable/advancedbutton"
+            android:layout_width="0dip" android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:text ="4567"
+            android:textColor="#fff"
+            android:layout_margin="4dip"/>
+    </LinearLayout>
+</LinearLayout>

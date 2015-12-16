@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true"
+        android:state_pressed="false"
+        android:color="#2fff7b" /><!-- 焦点在时，但没有按下 -->
+    <item android:state_focused="true"
+        android:state_pressed="true"
+        android:color="#fc1c20" /><!-- 焦点在时，并按下了按钮 -->
+    <item android:state_focused="false"
+        android:state_pressed="true"
+        android:color="#2fff7b" /><!-- 焦点不在时，按下了按钮（主要指触摸按下的时候） -->
+    <item android:color="#f9ff4e" /><!-- 普通状态 -->
+
+</selector>

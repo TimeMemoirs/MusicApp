@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+        <ImageView
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="@drawable/music_head_no1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:id="@+id/music_activity_name"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/desk_play"
+        android:layout_marginRight="20dp"
+        android:id="@+id/play_music_san"/>
+</LinearLayout>

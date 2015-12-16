@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">樂音</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_local_music">LocalMusicActivity</string>
+    <string name="title_activity_find_music">FindMusicActivity</string>
+    <string name="title_activity_music">樂音</string>
+    <string name="title_activity_show_play_music">ShowPlayMusicActivity</string>
+</resources>
